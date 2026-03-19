@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="navbar navbar-dark bg-secondary sticky-top">
+            <div class="hstack w-100 gap-5">
+                <a href="index.html" class="text-decoration-none">
+                    <div class="h3 ms-3 text-light my-1">
+                        <i class="bi bi-stars text-primary"></i> Klaudia Ľaľová
+                    </div>
+                </a>
+                <button class="btn me-3 ms-auto" type="button" id="menuOpenBtn">
+                    <div class="h3 text-light my-1">MENU</div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Main Section -->
+        <section class="bg-secondary py-1">
+            <div class="container-fluid bg-image-1">
+                <div
+                    class="row g-0 justify-content-center align-items-center min-vh-100">
+                    <div class="col-12 col-md-6 d-flex align-items-center">
+                        <div class="h2 text-white position-relative ps-3"
+                            style="font-weight: 200; z-index: 1;">
+                            Hi, I'm Klaudia, a computer science student who
+                            thrives on creating and solving problems—which is
+                            exactly why I fell in love with CS. When I'm not
+                            coding, you'll find me lost in the <span
+                                class="hover-word" id="pages">pages</span> of
+                            fantasy and Japanese literature, binge-watching
+                            anime or completing <span class="hover-word"
+                                id="jigsaw-puzzles">jigsaw puzzles</span>. I'm
+                            drawn to beauty in all its forms—whether it's
+                            admiring stunning architecture and appreciating
+                            thoughtful design or enjoying <span
+                                class="hover-word" id="sunsets">sunsets</span>.
+                            I love hands-on creativity through <span
+                                class="hover-word"
+                                id="painting">painting</span>, building with
+                            <span class="hover-word" id="lego">LEGO</span>, DIY
+                            projects, and trying out new recipes in the kitchen
+                            to create delicious <span class="hover-word"
+                                id="food">food</span>. You'll often find me on
+                            long walks with <span class="hover-word"
+                                id="friends">friends</span>, embracing the
+                            "what if..." mindset that drives me to explore
+                            possibilities. Independence is something I value
+                            deeply, and I believe every day is an opportunity to
+                            grow, create, and <span class="hover-word"
+                                id="discover">discover</span>.
+                        </div>
+                    </div>
+                    <div
+                        class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="image-display-container">
+                            <img class="hover-image" id="img-pages"
+                                src="photos/pages.jpeg" alt="Pages">
+                            <img class="hover-image" id="img-jigsaw-puzzles"
+                                src="photos/puzzle.jpeg" alt="Jigsaw Puzzles">
+                            <img class="hover-image" id="img-painting"
+                                src="photos/painting.jpeg" alt="Painting">
+                            <img class="hover-image" id="img-sunsets"
+                                src="photos/sunset.jpeg" alt="Sunsets">
+                            <img class="hover-image" id="img-lego"
+                                src="photos/lego.jpeg" alt="LEGO">
+                            <img class="hover-image" id="img-food"
+                                src="photos/food.jpeg" alt="Food">
+                            <img class="hover-image" id="img-friends"
+                                src="photos/friends.jpeg" alt="Friends">
+                            <img class="hover-image" id="img-discover"
+                                src="photos/discover.jpeg" alt="Discover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Full Page Menu -->
+        <div class="menu_index" id="fullPageMenu">
+            <div class="hstack w-100 gap-5 bg-dark mt-2">
+                <div class="h3 ms-3 text-light my-1"><i
+                        class="bi bi-stars text-primary"></i></div>
+                <button class="btn me-3 ms-auto" type="button"
+                    id="menuCloseBtn">
+                    <div class="hstack">
+                        <div
+                            class="h3 text-light my-1 me-2 menu-close-header">Close</div>
+                        <div class="h3 text-light my-1">MENU</div>
+                    </div>
+                </button>
+            </div>
+            <div class="container-fluid bg-dark menu-content">
+                <div class="row">
+                    <div class="col py-md-5 ps-md-5">
+                        <div
+                            class="display-2 ps-md-5 py-md-5 ps-3 pt-5 menu-link">
+                            <a class="text-light text-decoration-none"
+                                href="projects.html">Projects</a>
+                        </div>
+                        <div
+                            class="display-2 ps-md-5 pb-md-5 ps-3 pt-3 menu-link">
+                            <a class="text-light text-decoration-none"
+                                href="index.html">Home</a>
+                        </div>
+                        <div
+                            class="display-2 ps-md-5 pb-md-5 ps-3 pt-3 menu-link menu-link-current">
+                            <a class="text-light text-decoration-none"
+                                href="about.html">About me</a>
+                        </div>
+                    </div>
+                    <div class="col py-md-5 pt-1 ps-4 menu-contact">
+                        <div class="fs-5 text-light-emphasis pt-5">Contact</div>
+                        <div
+                            class="fs-3 text-light">klaudia.lalova@gmail.com</div>
+                        <div class="fs-5 text-light-emphasis mt-3">Let's keep in
+                            touch!</div>
+                        <div class="fs-3 pb-1">
+                            <a class="text-decoration-none text-light"
+                                href="https://www.linkedin.com/in/klaudia-%C4%BEa%C4%BEov%C3%A1-639526275/">
+                                <i class="bi bi-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                        <div class="fs-3">
+                            <a class="text-decoration-none text-light"
+                                href="https://github.com/klaud1a">
+                                <i class="bi bi-github"></i> Github
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="navbar navbar-dark bg-secondary justify-content-center">
+            <div class="h5 text-light my-1 d-flex align-items-center gap-2">
+                <span>Made with</span>
+                <i class="bi bi-heart text-primary"></i>
+                <span>in 2025</span>
+            </div>
+        </div>
+
+        <!-- Mobile Image Modal -->
+        <div id="mobileImageModal" class="image-modal">
+            <div class="image-modal-content">
+                <button class="image-modal-close"
+                    id="closeImageModal">&times;</button>
+                <img id="mobileImage" class="image-modal-img" src alt="Preview">
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+        const menu = document.getElementById('fullPageMenu');
+        const openBtn = document.getElementById('menuOpenBtn');
+        const closeBtn = document.getElementById('menuCloseBtn');
+
+        openBtn.addEventListener('click', () => {
+            menu.classList.add('active');
+            document.body.classList.add('menu-open');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            menu.classList.remove('active');
+            document.body.classList.remove('menu-open');
+        });
+
+        const hoverWords = document.querySelectorAll('.hover-word');
+        const images = document.querySelectorAll('.hover-image');
+
+        const modal = document.getElementById("mobileImageModal");
+        const modalImage = document.getElementById("mobileImage");
+        const closeModal = document.getElementById("closeImageModal");
+        const isMobile = () => window.innerWidth < 992; // Bootstrap lg breakpoint
+
+        hoverWords.forEach(word => {
+            word.addEventListener("click", function() {
+                if (isMobile()) {
+                    const targetImage = document.getElementById(`img-${this.id}`);
+                    if (targetImage) {
+                        modalImage.src = targetImage.src;
+                        modal.classList.add("active");
+                    }
+                }
+            });
+
+            word.addEventListener('mouseenter', function() {
+                if (isMobile()) return;
+                const wordId = this.id;
+                const targetImage = document.getElementById(`img-${wordId}`);
+                images.forEach(img => img.classList.remove('active'));
+                if (targetImage) targetImage.classList.add('active');
+            });
+
+            word.addEventListener('mouseleave', function() {
+                if (isMobile()) return;
+                images.forEach(img => img.classList.remove('active'));
+            });
+        });
+
+        closeModal.addEventListener("click", () => modal.classList.remove("active"));
+        modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("active"); });
+    </script>
+    </body>
+</html>
